@@ -5,6 +5,10 @@
 body {
   /* background-color: #FFF9C9; */
   background-color: #ffe3e3;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 a:hover {

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full min-h-screen bg-[#F5F3F4] p-8 f-background">
       <div className="flex flex-col items-center justify-center space-y-8 w-full lg:w-1/2 mt-auto mb-auto pt-[7rem] ">
-        <h1 className="text-3xl font-semibold tracking-wider leading-8 text-center">Sign Up To Make A Change</h1>
+        <h1 className="text-3xl font-semibold tracking-wider leading-8 text-center md:text-2xl ">Sign Up To Make A Change</h1>
         <p className='text-2xl font-normal text-center tracking-wide w-full lg:w-[60%] sm:text-xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         <div className='flex space-x-9 justify-center lg:justify-start'>
           <button className="px-8 py-2 bg-[#DFAB90] text-white rounded">Sign Up</button>
