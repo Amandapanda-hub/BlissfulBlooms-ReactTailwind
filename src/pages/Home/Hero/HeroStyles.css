@@ -1,0 +1,38 @@
+.type-animation-text {
+    font-size: 3rem; /* default font size */
+}
+
+/* Small devices (landscape phones, 640px and up) */
+@media (min-width: 640px) {
+    .type-animation-text {
+        font-size: 2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .type-animation-text {
+        font-size: 1rem;
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    .type-animation-text {
+        font-size: .5rem;
+    }
+}
+
+/* Extra Large devices (large desktops, 1280px and up) */
+@media (min-width: 1280px) {
+    .type-animation-text {
+        font-size: 1.2rem;
+    }
+}
+
+/* 2XL devices (full-screen monitors, 1536px and up) */
+@media (min-width: 1536px) {
+    .type-animation-text {
+        font-size: 1rem;
+    }
+}
