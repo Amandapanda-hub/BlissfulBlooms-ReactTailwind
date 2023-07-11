@@ -10,23 +10,12 @@ import { ReactComponent as Environment } from '../../../assets/SVG/environment.s
 const GridItem = ({ SvgComponent, title, description }) => (
     <div className="flex flex-col items-center">
       <div className="w-full h-full flex items-center justify-center">
-        <SvgComponent className="w-full sm:w-[80%] md:w-[500px] md:h-[150px] lg:max-w-md h-[200px] mx-auto" />
+        <SvgComponent className="w-full sm:w-[80%] md:w-[500px] md:h-[180px] lg:max-w-md h-[200px] mx-auto" />
       </div>
       <h1 className="font-bold text-xl sm:text-2xl text-center mt-8 h-[60px] tracking-wider">{title}</h1>
       <p className="text-center mt-1 text-md sm:text-lg font-medium w-full sm:w-80 mx-auto">{description}</p>
     </div>
 );
-
-// const GridItem = ({ SvgComponent, title, description }) => (
-//     <div className="flex flex-col items-center">
-//       <div className="w-full h-full flex items-center justify-center">
-//         <SvgComponent className="w-full sm:w-[80%] md:w-[500px] lg:max-w-md h-auto mx-auto" />
-//       </div>
-//       <h1 className="font-bold text-xl sm:text-2xl text-center mt-8 h-[60px] tracking-wider">{title}</h1>
-//       <p className="text-center mt-1 text-md sm:text-lg font-medium w-full sm:w-80 mx-auto">{description}</p>
-//     </div>
-// );
-
 
 
 const SixGrid = () => (
