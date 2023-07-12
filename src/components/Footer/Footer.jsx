@@ -18,17 +18,16 @@ const Footer = () => {
           </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center space-y-4 sm:space-y-6 md:space-y-6 lg:space-y-10 w-full lg:w-1/2 mt-8 sm:mt-auto mb-4 sm:mb-auto md:mb-auto text-xl sm:text-2xl lg:text-2xl">
+      <div className="mt-8 space-y-4 lg:mt-auto mb-4 sm:mb-auto md:mb-auto text-xl sm:text-2xl lg:text-2xl xl:mb-2 flex flex-col items-center justify-center">
         <div className='w-16 h-16 sm:w-20 sm:h-20 lg:w-20 lg:h-20 rounded-full border border-[#3F2305] flex items-center justify-center'>
           <MdOutlineNaturePeople className="w-8 h-8 sm:w-10 sm:h-10 lg:w-10 lg:h-10 text-[#3F2305]"/>
         </div>
-          <p className='text-center font-normal tracking-wide'>Download Our Free Mobile App</p>
-            <div className='flex justify-center lg:justify-start space-x-4 sm:space-x-6 lg:space-x-4'>
-              <Link to='https://www.apple.com/app-store/developing-for-the-app-store/'><img src={AppleStore} alt="Apple Store" className="w-32 h-auto sm:w-36 lg:w-40"/></Link>
-              <Link to='https://play.google.com/store/apps?hl=en_US&gl=US&pli=1'><img src={GooglePlay} alt="Google Play Store" className="w-32 h-auto sm:w-36 lg:w-40"/></Link>
-            </div>
-      </div>
-
+        <p className='text-center font-normal tracking-wide xl:mt-2'>Download Our Free Mobile App</p>
+          <div className='flex justify-center lg:justify-start space-x-4 sm:space-x-6 lg:space-x-4'>
+            <Link to='https://www.apple.com/app-store/developing-for-the-app-store/'><img src={AppleStore} alt="Apple Store" className="w-32 h-auto sm:w-36 lg:w-40"/></Link>
+            <Link to='https://play.google.com/store/apps?hl=en_US&gl=US&pli=1'><img src={GooglePlay} alt="Google Play Store" className="w-32 h-auto sm:w-36 lg:w-40"/></Link>
+          </div>
+        </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-4 justify-items-center w-full lg:w-[50%] mt-auto mb-10 text-sm sm:text-base text-[#3F2305]">
         <Link className="" to="/">About Us</Link>
@@ -39,6 +38,7 @@ const Footer = () => {
         <Link className="" to="/">Privacy Policy</Link>
       </div>
         <p className="text-center mb-4">&copy; {new Date().getFullYear()} BLISSFUL BLOOMS.</p>
+
     </div>
   );
 }
