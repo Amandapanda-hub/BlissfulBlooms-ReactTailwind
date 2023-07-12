@@ -39,7 +39,7 @@ export const NavBar = () => {
         </div>
         <ul className="justify-center uppercase p-4">
           <li className="p-4 border-b border-[#3F2305]">Home</li>
-          <li className="p-4 border-b border-[#3F2305]">Company</li>
+          <li className="p-4 border-b border-[#3F2305]">Services</li>
           <li className="p-4 border-b border-[#3F2305]">About</li>
           <li className="p-4 border-b border-[#3F2305]">Contact</li>
         </ul>
